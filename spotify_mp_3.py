@@ -6,8 +6,8 @@ import re
 import subprocess
 
 # Spotify API credentials
-SPOTIPY_CLIENT_ID = 'bc9f17029cfa4c5ca6a6d969ce36217c'
-SPOTIPY_CLIENT_SECRET = 'e2f342ad7d42433d9b1f54ba9c998b35'
+SPOTIPY_CLIENT_ID = 'your_spotify_client_id_api'
+SPOTIPY_CLIENT_SECRET = 'your_spotify_client_secret_api'
 
 # Set up Spotify client
 client_credentials_manager = SpotifyClientCredentials(client_id=SPOTIPY_CLIENT_ID, client_secret=SPOTIPY_CLIENT_SECRET)
